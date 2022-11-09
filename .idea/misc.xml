@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/pabas/AndroidStudioProjects/UEE_Admin_App/app/src/main/res/drawable/button_bg.xml" value="0.2795" />
+        <entry key="..\:/Users/pabas/AndroidStudioProjects/UEE_Admin_App/app/src/main/res/drawable/stroke_white.xml" value="0.2335" />
+        <entry key="..\:/Users/pabas/AndroidStudioProjects/UEE_Admin_App/app/src/main/res/layout/activity_add_article.xml" value="0.23157894736842105" />
+        <entry key="..\:/Users/pabas/AndroidStudioProjects/UEE_Admin_App/app/src/main/res/layout/activity_all_articles.xml" value="0.22" />
+        <entry key="..\:/Users/pabas/AndroidStudioProjects/UEE_Admin_App/app/src/main/res/layout/activity_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/pabas/AndroidStudioProjects/UEE_Admin_App/app/src/main/res/layout/activity_update_article.xml" value="0.27474747474747474" />
+        <entry key="..\:/Users/pabas/AndroidStudioProjects/UEE_Admin_App/app/src/main/res/layout/article_card.xml" value="0.23157894736842105" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

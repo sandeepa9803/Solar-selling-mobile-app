@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "629159390821",
+    "project_id": "uee-project-1c21d",
+    "storage_bucket": "uee-project-1c21d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629159390821:android:e38de93770743b36a4e08c",
+        "android_client_info": {
+          "package_name": "com.uee.admin_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629159390821-qoqsrtfa2ica7tukd7c1qkm5riq5vfle.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUoqhP6bFMUe7CadumCvbu7lDKJ89nUu4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "629159390821-qoqsrtfa2ica7tukd7c1qkm5riq5vfle.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
