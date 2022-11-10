@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="388dp"
+        android:layout_height="848dp"
+        android:layout_marginEnd="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/admInD"
+            android:layout_width="325dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="Admin Dashoboard"
+            android:textColor="@color/black"
+            android:textSize="34dp"
+            app:layout_constraintBottom_toTopOf="@+id/imageView24"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ImageView
+            android:id="@+id/imageView11"
+            android:layout_width="41dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/admInD"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/profile" />
+
+
+        <ImageView
+            android:id="@+id/imageView24"
+            android:layout_width="392dp"
+            android:layout_height="342dp"
+            android:layout_marginBottom="4dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/dash" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView2"
+            android:layout_width="162dp"
+            android:layout_height="122dp"
+            android:layout_marginBottom="20dp"
+            app:cardBackgroundColor="#56A5F2"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardView4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.6"
+            app:layout_constraintStart_toEndOf="@+id/cardView">
+
+            <ImageView
+                android:id="@+id/UPdateSOAR"
+                android:layout_width="match_parent"
+                android:layout_height="66dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="16dp"
+                app:srcCompat="@drawable/update" />
+
+            <Button
+                android:id="@+id/UpdaTeProd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="74dp"
+                android:background="#56A5F2"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/UPDATEDETAILS"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="162dp"
+            android:layout_height="122dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="20dp"
+            app:cardBackgroundColor="#56A5F2"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardView3"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <Button
+                android:id="@+id/ADDproducts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="74dp"
+                android:background="#56A5F2"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/ADDPRODUCTS"
+                android:textAllCaps="false"
+                android:textSize="16dp" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/add" />
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView3"
+            android:layout_width="162dp"
+            android:layout_height="122dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="20dp"
+            app:cardBackgroundColor="#56A5F2"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardView7"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <ImageView
+                android:id="@+id/DELTESOlar"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="16dp"
+                app:srcCompat="@drawable/delete" />
+
+            <Button
+                android:id="@+id/DelTePro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="74dp"
+                android:background="#56A5F2"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/DELETEPRODUCTS"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView4"
+            android:layout_width="162dp"
+            android:layout_height="122dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="20dp"
+            app:cardBackgroundColor="#56A5F2"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp"
+            app:layout_constraintBottom_toTopOf="@+id/cdfxz"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <ImageView
+                android:id="@+id/AddARticle"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="16dp"
+                app:srcCompat="@drawable/articles" />
+
+            <Button
+                android:id="@+id/AddArTiCles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="74dp"
+                android:background="#56A5F2"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/ADDARTICLES"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView7"
+            android:layout_width="162dp"
+            android:layout_height="122dp"
+            android:layout_marginBottom="32dp"
+            app:cardBackgroundColor="#56A5F2"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.106"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <ImageView
+                android:id="@+id/SalesReportt"
+                android:layout_width="match_parent"
+                android:layout_height="63dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="16dp"
+                app:srcCompat="@drawable/salereprt1" />
+
+            <Button
+                android:id="@+id/BTNreport"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="74dp"
+                android:background="#56A5F2"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/SALEREPORT"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cdfxz"
+            android:layout_width="162dp"
+            android:layout_height="122dp"
+            android:layout_marginBottom="32dp"
+            app:cardBackgroundColor="#56A5F2"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.6"
+            app:layout_constraintStart_toEndOf="@+id/cardView7">
+
+            <ImageView
+                android:id="@+id/wsdc"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="13dp"
+                android:layout_marginBottom="16dp"
+                app:srcCompat="@drawable/feedback" />
+
+            <Button
+                android:id="@+id/FedBack"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="74dp"
+                android:background="#56A5F2"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/USEFEEDBACK"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

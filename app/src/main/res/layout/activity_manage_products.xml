@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="391dp"
+    android:layout_height="849dp"
+    android:fillViewport="true"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".ManageProducts">
+
+
+        <TextView
+            android:id="@+id/MANAGEp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="@string/MANAGEPRODUCT"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.259" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName3"
+            android:layout_width="353dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/data_add_input"
+            android:ems="10"
+            android:fontFamily="@font/quicksand_semibold"
+            android:inputType="textPersonName"
+            android:paddingStart="15dp"
+            android:textColor="#BBD9F5"
+            android:textSize="18dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardView"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="29dp"
+            android:layout_height="25dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName3"
+            app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName3"
+            app:layout_constraintTop_toTopOf="@+id/editTextTextPersonName3"
+            app:layout_constraintVertical_bias="0.526"
+            app:srcCompat="@drawable/search1" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="353dp"
+            android:layout_height="214dp"
+            android:layout_marginBottom="16dp"
+            app:cardBackgroundColor="#BBD9F5"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="17dp"
+            app:layout_constraintBottom_toTopOf="@+id/crdvew"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.578"
+            app:layout_constraintStart_toStartOf="parent">
+
+
+            <ImageView
+                android:id="@+id/imageView21"
+                android:layout_width="118dp"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/lg" />
+
+            <TextView
+                android:id="@+id/textView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/PRODUCT"
+                android:textColor="#1434A4"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/SINGERSOLAR"
+                android:textColor="#1434A4"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/edsw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/MODEL"
+                android:textColor="#1434A4"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/dddfss"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/MODELS1"
+                android:textColor="#1434A4"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/ertg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="70dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/WATTAGE"
+                android:textColor="#1434A4"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/rffsss"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="70dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/WATT"
+                android:textColor="#1434A4"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/qwas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/WARRENTY"
+                android:textColor="	#1434A4"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/eeed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/Years"
+                android:textColor="#1434A4"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/prt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="130dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="Price"
+                android:textColor="#1434A4"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/bhjkm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="130dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/RUES"
+                android:textColor="#1434A4"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/UPD1"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginLeft="135dp"
+                android:layout_marginTop="165dp"
+                android:background="@drawable/btnaddcancel"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/UPDATED"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="16dp"/>
+
+            <Button
+                android:id="@+id/DLT1"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="165dp"
+                android:background="@drawable/btnaddcancel"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/DELETE"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="16dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/crdvew"
+            android:layout_width="352dp"
+            android:layout_height="217dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            app:cardBackgroundColor="#BBD9F5"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="17dp"
+            app:layout_constraintBottom_toTopOf="@+id/cardView1"
+            app:layout_constraintEnd_toEndOf="parent">
+
+
+            <TextView
+                android:id="@+id/textView282sa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/PRODUCT"
+                android:textColor="#1434A4"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/textView271dc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/LGSOLAR"
+                android:textColor="#1434A4"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/edswaed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/MODEL"
+                android:textColor="#1434A4"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/dddfssddd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/MODELL"
+                android:textColor="#1434A4"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/ertcfvgc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="70dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/WATTAGE"
+                android:textColor="#1434A4"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/rffwssssa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="70dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/WATTT"
+                android:textColor="#1434A4"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/qwasvfx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/WARRENTY"
+                android:textColor="#1434A4"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/eedceda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/YEARSS"
+                android:textColor="#1434A4"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/prgbtq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="130dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="Price"
+                android:textColor="#1434A4"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/bhjbbkma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="130dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/RUPPPPP"
+                android:textColor="#1434A4"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/UPdcfD2e"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginLeft="135dp"
+                android:layout_marginTop="165dp"
+                android:background="@drawable/btnaddcancel"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/UPDATED"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="16dp"/>
+
+            <Button
+                android:id="@+id/DLtgbEt2"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="165dp"
+                android:background="@drawable/btnaddcancel"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/DELETE"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="16dp"/>
+
+            <ImageView
+                android:id="@+id/imagevgView12"
+                android:layout_width="117dp"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/panel2" />
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView1"
+            android:layout_width="353dp"
+            android:layout_height="217dp"
+            android:layout_marginBottom="60dp"
+            app:cardBackgroundColor="#BBD9F5"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="17dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.578"
+            app:layout_constraintStart_toStartOf="parent">
+
+
+            <TextView
+                android:id="@+id/textView282"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/PRODUCT"
+                android:textColor="#1434A4"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/textView271"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/LGSOLAR"
+                android:textColor="#1434A4"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/edswa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/MODEL"
+                android:textColor="#1434A4"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/dddfssd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="40dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/MODELL"
+                android:textColor="#1434A4"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/ertgc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="70dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/WATTAGE"
+                android:textColor="#1434A4"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/rffsssa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="70dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/WATTT"
+                android:textColor="#1434A4"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/qwasx"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/WARRENTY"
+                android:textColor="#1434A4"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/eeeda"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="100dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/YEARSS"
+                android:textColor="#1434A4"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/prtq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:layout_marginTop="130dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="Price"
+                android:textColor="#1434A4"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/bhjkma"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="220dp"
+                android:layout_marginTop="130dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/RUPPPPP"
+                android:textColor="#1434A4"
+                android:textSize="16dp" />
+
+            <Button
+                android:id="@+id/UPD2e"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginLeft="135dp"
+                android:layout_marginTop="165dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/UPDATED"
+                android:textAllCaps="false"
+                android:background="@drawable/btnaddcancel"
+                android:textColor="@color/white"
+                android:textSize="16dp"/>
+
+            <Button
+                android:id="@+id/DLEt2"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_marginLeft="240dp"
+                android:layout_marginTop="165dp"
+                android:fontFamily="@font/quicksand_bold"
+                android:text="@string/DELETE"
+                android:textAllCaps="false"
+                android:background="@drawable/btnaddcancel"
+                android:textColor="@color/white"
+                android:textSize="16dp"/>
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="117dp"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/panel1" />
+
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

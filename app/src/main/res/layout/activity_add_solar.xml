@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="393dp"
+        android:layout_height="852dp"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="0dp">
+
+
+        <TextView
+            android:id="@+id/edr1"
+            android:layout_width="263dp"
+            android:layout_height="36dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="@string/ADDSOLARR"
+            android:textColor="@color/black"
+            android:textSize="28dp"
+            app:layout_constraintBottom_toTopOf="@+id/qasw3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.553"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/qasw3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/quicksand_regular"
+            android:text="@string/ADDIMAGE"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/ghy6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.092"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/cvbnhj"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/quicksand_regular"
+            android:text="@string/PRICE"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/qazxcv4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.079"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/qazxcv4"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="28dp"
+            android:background="@drawable/custominput"
+            android:ems="10"
+            android:fontFamily="@font/quicksand_regular"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/Cnacela"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.627"
+            app:layout_constraintStart_toStartOf="parent"
+            android:paddingStart="15dp"
+            android:hint="Enter product price"/>
+
+        <TextView
+            android:id="@+id/qazxv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:fontFamily="@font/quicksand_regular"
+            android:text="@string/WARRENTY"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/edfghj"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.082"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/vbnh7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/quicksand_regular"
+            android:text="@string/WATTAGE"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/jnbg6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.081"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/rhjui8"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/custominput"
+            android:ems="10"
+            android:fontFamily="@font/quicksand_regular"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/vbnh7"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.604"
+            app:layout_constraintStart_toStartOf="parent"
+            android:paddingStart="15dp"
+            android:hint=" Enter model name"/>
+
+        <TextView
+            android:id="@+id/edfgt5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/quicksand_regular"
+            android:text="@string/MODELNAME"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/rhjui8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.094"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/rfgt6"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/custominput"
+            android:drawablePadding="12dp"
+            android:ems="10"
+            android:fontFamily="@font/quicksand_regular"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            app:layout_constraintBottom_toTopOf="@+id/edfgt5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.604"
+            app:layout_constraintStart_toStartOf="parent"
+            android:paddingStart="15dp"
+            android:textStyle="bold"
+            android:hint="Enter product name"
+            />
+
+        <TextView
+            android:id="@+id/edfr5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/quicksand_regular"
+            android:text="@string/PRODUCTNAME"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/rfgt6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.102"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <EditText
+            android:id="@+id/jnbg6"
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/custominput"
+            android:ems="10"
+            android:fontFamily="@font/quicksand_regular"
+            android:inputType="textPersonName"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/qazxv"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.604"
+            app:layout_constraintStart_toStartOf="parent"
+            android:paddingStart="15dp"
+            android:hint="Enter product wattage"/>
+
+        <RadioGroup
+            android:id="@+id/edfghj"
+            android:layout_width="146dp"
+            android:layout_height="68dp"
+            android:layout_marginEnd="184dp"
+            android:layout_marginBottom="12dp"
+            app:layout_constraintBottom_toTopOf="@+id/cvbnhj"
+            app:layout_constraintEnd_toEndOf="parent">
+
+            <RadioButton
+                android:id="@+id/fvbghy6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/quicksand_regular"
+                android:text="@string/YEARS1"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/dcvfg6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/quicksand_regular"
+                android:text="@string/YEARS2"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </RadioGroup>
+
+        <ImageView
+            android:id="@+id/sdcf4"
+            android:layout_width="69dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginBottom="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/edfr5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/addimage" />
+
+        <ImageView
+            android:id="@+id/edfr4"
+            android:layout_width="69dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/edfr5"
+            app:layout_constraintEnd_toStartOf="@+id/edfr"
+            app:layout_constraintHorizontal_bias="0.517"
+            app:layout_constraintStart_toEndOf="@+id/sdcf4"
+            app:srcCompat="@drawable/addimage" />
+
+        <ImageView
+            android:id="@+id/edfr"
+            android:layout_width="69dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/edfr5"
+            app:layout_constraintEnd_toStartOf="@+id/ghy6"
+            app:srcCompat="@drawable/addimage" />
+
+        <ImageView
+            android:id="@+id/ghy6"
+            android:layout_width="69dp"
+            android:layout_height="60dp"
+            android:layout_marginEnd="36dp"
+            android:layout_marginBottom="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/edfr5"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/addimage" />
+
+        <Button
+            android:id="@+id/Cnacela"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="44dp"
+            android:background="@drawable/btnaddcancel"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="@string/CANCEL"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.616"
+            app:layout_constraintStart_toEndOf="@+id/ADDw" />
+
+        <Button
+            android:id="@+id/ADDw"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="60dp"
+            android:layout_marginBottom="44dp"
+            android:background="@drawable/btnaddcancel"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="@string/ADD1"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

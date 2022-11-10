@@ -1,3 +1,58 @@
 <resources>
     <string name="app_name">UEE_Admin_App</string>
+    <string name="app_name">MY UEE APP</string>
+    <string name="ADMINLOGIN">Admin Login</string>
+    <string name="FORGOTPASSWORD">Forgot Password?</string>
+    <string name="OR">OR</string>
+    <string name="LOGIN">Login</string>
+    <string name="LOGINWITH">Login with Google</string>
+    <string name="ADMINDASH">Admin Dashboard</string>
+    <string name="ADDSOLARR">Add Solar Products</string>
+    <string name="ADDIMAGE">Add Images</string>
+    <string name="PRODUCTNAME">Product Name</string>
+    <string name="MODELNAME">Model Name</string>
+    <string name="WATTAGE">Wattage</string>
+    <string name="WARRENTY">Warrenty</string>
+    <string name="PRICE">Price</string>
+    <string name="ADDARTICLE">Add Articles</string>
+    <string name="ADDVIDEOS">Add Videos</string>
+    <string name="ADDDESCRIPTION">Add Description</string>
+    <string name="UPDATESOLAR">Update Solar Products</string>
+    <string name="UPDATE">Update</string>
+    <string name="CANCEL">Cancel</string>
+    <string name="UPDATED">Update</string>
+    <string name="ADD">Add</string>
+    <string name="ADD1">Add</string>
+    <string name="ADDSOLARPRODUCTS">Add Solar Products</string>
+    <string name="UPDATEDETAILS">Update details</string>
+    <string name="DELETEPRODUCTS">Delete Products</string>
+    <string name="ADDARTICLES">Add Articles</string>
+    <string name="PRODUCT">Product</string>
+    <string name="MODEL">Model</string>
+    <string name="SINGER" />
+    <string name="SINGERSOLAR">: Singer Solar</string>
+    <string name="MODELS1">: Model S1</string>
+    <string name="WATT">: 300W</string>
+    <string name="Years">: 10 Years</string>
+    <string name="Rupee">: Rs 90000 /=</string>
+    <string name="LGSOLAR">: LG Solar</string>
+    <string name="MODELL">: MOdel L1</string>
+    <string name="WATTT">: 400W</string>
+    <string name="YEARSS">: 20 Years</string>
+    <string name="RUPPPPP">: Rs 150000/=</string>
+    <string name="RUES">: Rs 90000/=</string>
+    <string name="MANAGEPRODUCT">Manage Products</string>
+    <string name="YEARS1">10 Years</string>
+    <string name="YEARS2">20 Years</string>
+    <string name="DELETE">Delete</string>
+    <string name="ADLOGIN">Login</string>
+    <string name="ADGOOGLE">Login with Google</string>
+    <string name="ADDPRODUCTS">Add Products</string>
+    <string name="SALESREPORT">Sales Report</string>
+    <string name="TOTALINCOME">Total Income</string>
+    <string name="ORDERS">Orders</string>
+    <string name="PORICE">Rs 2456700.00</string>
+    <string name="PHILIPS">Philips Solar Panel</string>
+    <string name="SALEREPORT">Sales Report</string>
+    <string name="USEFEEDBACK">User feedback</string>
 </resources>

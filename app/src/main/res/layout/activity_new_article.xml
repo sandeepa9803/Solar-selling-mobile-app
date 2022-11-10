@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="391dp"
+        android:layout_height="849dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="@string/ADDARTICLE"
+            android:textColor="@color/black"
+            android:textSize="29dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView18"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.506"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:fontFamily="@font/quicksand_regular"
+            android:text="@string/ADDIMAGE"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/imageView30"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.082"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView28"
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="24dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView19"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/addimage" />
+
+        <ImageView
+            android:id="@+id/imageView29"
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginBottom="24dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView19"
+            app:layout_constraintStart_toEndOf="@+id/imageView28"
+            app:srcCompat="@drawable/addimage" />
+
+        <ImageView
+            android:id="@+id/imageView30"
+            android:layout_width="84dp"
+            android:layout_height="84dp"
+            android:layout_marginBottom="24dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView19"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.658"
+            app:layout_constraintStart_toEndOf="@+id/imageView29"
+            app:srcCompat="@drawable/addimage" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="24dp"
+            android:fontFamily="@font/quicksand_regular"
+            android:text="@string/ADDVIDEOS"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/imageView33"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView31"
+            android:layout_width="79dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginBottom="24dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView20"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/video1" />
+
+        <ImageView
+            android:id="@+id/imageView32"
+            android:layout_width="79dp"
+            android:layout_height="75dp"
+            android:layout_marginStart="44dp"
+            android:layout_marginBottom="24dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView20"
+            app:layout_constraintStart_toEndOf="@+id/imageView31"
+            app:srcCompat="@drawable/video1" />
+
+        <ImageView
+            android:id="@+id/imageView33"
+            android:layout_width="79dp"
+            android:layout_height="75dp"
+            android:layout_marginBottom="24dp"
+            app:layout_constraintBottom_toTopOf="@+id/textView20"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.653"
+            app:layout_constraintStart_toEndOf="@+id/imageView32"
+            app:srcCompat="@drawable/video1" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:fontFamily="@font/quicksand_regular"
+            android:text="@string/ADDDESCRIPTION"
+            android:textColor="@color/black"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@+id/cardView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.093"
+            app:layout_constraintStart_toStartOf="parent"
+           />
+
+        <Button
+            android:id="@+id/Addsa"
+            android:layout_width="91dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="56dp"
+            android:layout_marginBottom="56dp"
+            android:text="Add"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:textAllCaps="false"
+            android:fontFamily="@font/quicksand_bold"
+            android:background="@drawable/btnaddcancel"
+            android:textColor="@color/white"/>
+
+        <Button
+            android:id="@+id/Cncelsa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="56dp"
+            android:fontFamily="@font/quicksand_bold"
+            android:text="Cancel"
+            android:textAllCaps="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.57"
+            app:layout_constraintStart_toEndOf="@+id/Addsa"
+            android:background="@drawable/btnaddcancel"
+            android:textColor="@color/white"/>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="354dp"
+            android:layout_height="250dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="40dp"
+            app:cardBackgroundColor="#EDEEFF"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="10dp"
+            app:layout_constraintBottom_toTopOf="@+id/Cncelsa"
+            app:layout_constraintStart_toStartOf="parent">>
+
+            <EditText
+                android:id="@+id/editTextTextPersonName2"
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:background="#EDEEFF"
+                android:drawablePadding="18dp"
+                android:ems="10"
+                android:fontFamily="@font/quicksand_semibold"
+                android:inputType="textPersonName"
+                android:textSize="19dp"
+                android:hint="Write a new article "
+                android:paddingStart="10dp"/>
+
+        </androidx.cardview.widget.CardView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
